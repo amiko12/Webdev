@@ -1,0 +1,63 @@
+.header{
+    
+    justify-content: space-around;
+    
+}
+.mainimg{
+   position: absolute;
+   background-image: url("/images/main.jpg");
+   width: 100%;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   justify-content: center;
+   align-items: center;
+   
+}
+.navul{
+    display: flex;
+    position: relative;
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    justify-content: center;
+    align-items: center;
+   
+}
+.navli{
+    display: flex;
+    margin-left: 20px;
+    padding: 30px;
+}
+.a{
+    color: white;
+    font-size: 20px;
+}
+.maintext{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    align-items: center;
+    
+}
+.mainh1{
+    color: white;
+    font-size: 70px;
+}
+.mainp{
+    color: white;
+    width: 600px;
+    font-size: 20px;
+    margin:25px 0px;
+}
+.mainbutton{
+    border: #377dff solid 2px;
+    border-radius: 15px; 
+    background-color: #377dff;
+    color:white;
+    padding: 15px ;
+}
