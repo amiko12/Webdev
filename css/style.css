@@ -61,3 +61,81 @@
     color:white;
     padding: 15px ;
 }
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 270px;
+}
+
+
+.sectionimg{
+    max-width: 500px;
+    width: 100%;
+   
+}
+.sectionh3{
+    font-size: 29px;
+    font-style: bold;
+}
+.sectionp{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 170px ;
+    width: 100%;
+    height: 400px;
+    background-color: wheat;
+    
+}
+.logo{
+    max-width: 70px;
+    width: 100%;
+    margin-left:220px;
+}
+.parth2{
+    text-align: center;
+    margin: 20px 0;
+}
+.part2p{
+    width: 500px;
+    text-align: center;
+}
+.hacker{
+    max-width:450px;
+    width: 100%;
+}
+.divcoding{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 170px;
+
+}
+.coding1{
+    max-width: 500px;
+    width: 100%;
+}
+.codingp{
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+.codingh2{
+    text-align: center;
+}
+.codinga{
+    border: #377dff solid 2px;
+    border-radius: 15px; 
+    background-color: #377dff;
+    color:white;
+    padding: 15px ;
+    
+}
