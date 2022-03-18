@@ -49,6 +49,7 @@
 }
 .mainp{
     color: white;
+    max-width: 600px;
     width: 600px;
     font-size: 20px;
     margin:25px 0px;
@@ -115,8 +116,6 @@
     align-items: center;
     justify-content: space-around;
     margin: 170px 0px ;
-   
-
 }
 .coding1{
     max-width: 500px;
@@ -195,31 +194,60 @@
     
 }
 .btn{
-    max-width: 200px;
-    width: 100%;
-    height: 47px;
     background-color: DodgerBlue;
     border: none;
     color: white;
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    
-  
+}
+#amiko{
+	padding-left:20px;
+    font-size: 18px;
 }
 .btn:hover {
     background-color: RoyalBlue;
 }
+.downloadbtn{
+    margin-top: 20px;
+}
 .end{
     margin-bottom: 170px;
-    
-}
-.icon{
-    max-width: 20px;
-}
-.downloadbtn{
-    
     text-align: center;
 }
+.endp{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.endh2{
+    font-size: 25px;
+    
+}
+.footerdiv{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: black;
+    align-items: center;
+    
+}
+.fota{
+    color: white;
+    font-size: 19px;
+    
+}
+.fotp{
+    color: white;
+    margin-right: 20px;
+}
+#fota{
+    margin-left: 20px;
+}
+.by p {
+    font-size: 20px;
+}
+.amikologo{
+    width: 100%;
+}
+
