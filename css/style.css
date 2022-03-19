@@ -1,7 +1,5 @@
 .header{
-    
     justify-content: space-around;
-    
 }
 .mainimg{
    position: absolute;
@@ -34,6 +32,9 @@
     color: white;
     font-size: 20px;
 }
+.a:hover{
+    color: royalblue;
+}
 .maintext{
     position: relative;
     text-align: center;
@@ -50,7 +51,7 @@
 .mainp{
     color: white;
     max-width: 600px;
-    width: 600px;
+    width: 100%;
     font-size: 20px;
     margin:25px 0px;
 }
@@ -61,7 +62,9 @@
     color:white;
     padding: 15px ;
 }
-
+.mainbutton:hover{
+    background-color: royalblue;
+}
 .middle{
     display: flex;
     align-items: center;
@@ -91,17 +94,18 @@
     margin-top: 170px ;
     width: 100%;
     height: 400px;
-    background-color: wheat;
+    background-color: rgb(170, 159, 159);
     
 }
 .logo{
-    max-width: 70px;
+    max-width:110px;
     width: 100%;
-    margin-left:220px;
+    margin-left:200px;
 }
 .parth2{
+    font-size: 22px;
     text-align: center;
-    margin: 20px 0;
+    margin-bottom: 15px;
 }
 .part2p{
     width: 500px;
@@ -130,6 +134,7 @@
 }
 .codingh2{
     text-align: center;
+    font-size: 22px;
 }
 .codinga{
     border: #377dff solid 2px;
@@ -137,6 +142,9 @@
     background-color: #377dff;
     color:white;
     padding: 15px ;
+}
+.codinga:hover{
+    background-color: royalblue;
 }
 .codingtext{
     text-align: center;
@@ -162,6 +170,9 @@
     background-color: #377dff;
     border: none;
     cursor: pointer;
+}
+.submit:hover{
+    background-color: royalblue;
 }
 .email:focus{
     outline: none;
@@ -200,6 +211,7 @@
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
+    margin-right: 20px;
 }
 #amiko{
 	padding-left:20px;
@@ -211,13 +223,22 @@
 .downloadbtn{
     margin-top: 20px;
 }
+.end1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .end{
+    margin-top: 250px;
     margin-bottom: 170px;
     text-align: center;
 }
 .endp{
     text-align: center;
     margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
     
 }
 .endh2{
@@ -243,6 +264,9 @@
 }
 #fota{
     margin-left: 20px;
+}
+.fota:hover{
+    color: royalblue;
 }
 .by p {
     font-size: 20px;
