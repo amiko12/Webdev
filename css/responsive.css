@@ -90,9 +90,17 @@
 }
 @media(max-width:450px){
     .part2{
-        height: 450px;
+        height: 470px;
     }
     .btn{
         margin-top: 10px;
+    }
+}
+@media(max-width:370px){
+    .part2{
+        height:425px;
+    }
+    .web{
+        margin-bottom: -130px;
     }
 }
