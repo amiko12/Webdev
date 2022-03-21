@@ -45,9 +45,22 @@
     }
 }
 @media(max-width:600px){
-    .webp, .form, .navli, .line{
+    .webp, .form,  .navli,  .line{
         display: none;
     }
+    /* --------------------
+    .navul{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        
+    }
+    
+    .navli{
+        margin-top: 0;
+        padding:10px;
+    }
+     ------------------------ */
     .navul{
         height: 50px;
     }
